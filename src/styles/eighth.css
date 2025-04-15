@@ -1,0 +1,7 @@
+.sno{
+    transition: transform 0.2s ease;
+}
+
+.sno:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,8 @@
+.jiggy{
+
+    transition: transform 0.2s ease;
+}
+
+.jiggy:hover{
+    transform: scale(1.1);
+}

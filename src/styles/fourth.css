@@ -1,0 +1,7 @@
+.bulba{
+    transition: transform 0.2s ease;
+}
+
+.bulba:hover{
+    transform: scale(1.1);
+}

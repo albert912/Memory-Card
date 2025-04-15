@@ -1,0 +1,7 @@
+.gengar{
+    transition: transform 0.2s ease;
+}
+
+.gengar:hover{
+    transform: scale(1.1);
+}

@@ -1,0 +1,7 @@
+.meo{
+    transition: transform 0.2s ease;
+}
+
+.meo:hover{
+    transform: scale(1.1);
+}

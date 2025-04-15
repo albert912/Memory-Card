@@ -1,0 +1,8 @@
+.eev{
+    transition: transform 0.2s ease;
+}
+
+.eev:hover{
+
+    transform: scale(1.1);
+}

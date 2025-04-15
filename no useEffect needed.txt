@@ -1,0 +1,53 @@
+🛑 You do NOT need useEffect when:
+
+✅ 1. Handling local events (like button clicks)
+jsx
+Copy
+Edit
+<button onClick={handleClick}>Click</button>
+Just use onClick, onChange, etc. No need for useEffect.
+
+✅ 2. Showing/hiding UI based on state
+jsx
+Copy
+Edit
+{isVisible && <div>Hello!</div>}
+You can just change state, no useEffect required.
+
+✅ 3. Passing props and rendering something with them
+jsx
+Copy
+Edit
+function Greeting({ name }) {
+  return <h1>Hello, {name}</h1>;
+}
+No side effects — just display based on props? Skip useEffect.
+
+✅ 4. Calculating something from state or props (inside render)
+jsx
+Copy
+Edit
+const doubled = count * 2;
+You don’t need useEffect to compute values. Just calculate in the body.
+
+✅ 5. Styling or conditionally applying class names
+jsx
+Copy
+Edit
+<div className={isActive ? 'on' : 'off'}>Light</div>
+No side effects — just styling logic? No need for useEffect.
+
+---
+
+🧠 Rule of thumb:
+❗ Only use useEffect when you want to run code after React renders something, like:
+
+Fetching data
+
+Listening to events outside JSX (window, document)
+
+Setting timers
+
+Interacting with third-party libraries
+
+Manually changing DOM (rare in React)
