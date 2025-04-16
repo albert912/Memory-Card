@@ -1,7 +1,0 @@
-.luc{
-    transition: transform 0.2s ease;
-}
-
-.luc:hover{
-    transform: scale(1.1);
-}

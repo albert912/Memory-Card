@@ -1,7 +1,0 @@
-.gren{
-    transition: transform 0.2s ease;
-}
-
-.gren:hover{
-    transform: scale(1.1);
-}

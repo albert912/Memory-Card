@@ -1,9 +1,0 @@
-.pikac{
-    transition: transform 0.2s ease;
-  }
-
-
-
-.pikac:hover {
-    transform: scale(1.1);
-}

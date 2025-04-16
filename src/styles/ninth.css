@@ -1,7 +1,0 @@
-.mew{
-    transition: transform 0.2s ease;
-}
-
-.mew:hover{
-    transform: scale(1.1);
-}

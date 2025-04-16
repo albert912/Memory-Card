@@ -1,7 +1,0 @@
-.chari{
-    transition: transform 0.2s ease;
-}
-
-.chari:hover{
-    transform: scale(1.1);
-}

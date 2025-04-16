@@ -1,8 +1,9 @@
-.eev{
+.pokemon{
     transition: transform 0.2s ease;
-}
+  }
 
-.eev:hover{
 
+
+.pokemon:hover {
     transform: scale(1.1);
 }
